@@ -1,0 +1,19 @@
+From: Ippei Obayashi <ohai@kmc.gr.jp>
+Date: Wed, 23 Dec 2015 21:25:14 +0900
+Subject: update-cmakelists-to-install-files
+
+---
+ CMakeLists.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1d2c34e..83af908 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -57,3 +57,6 @@ source_group(Header\ Files FILES ${general_includes})
+ source_group(Header\ Files\\helpers FILES ${helpers_includes})
+ source_group(Header\ Files\\representations FILES ${representations_includes})
+ source_group(Header\ Files\\algorithms FILES ${algorithms_includes})
++
++install(PROGRAMS ${CMAKE_BINARY_DIR}/phat DESTINATION "bin")
++install(DIRECTORY include/phat DESTINATION "include")
