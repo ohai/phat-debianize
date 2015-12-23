@@ -1,0 +1,62 @@
+.TH phat "1" "December 2015" "PHAT 1.4.0" "User Commands"
+.SH NAME
+phat \- compute persistence pairs
+.SH SYNOPSIS
+.B phat [\fI\,options\/\fR] \fI\,input_filename output_filename\/\fR
+.SH DESCRIPTION
+This program computes the persistence
+pairs of a filtered cell complex represented by an ordered
+boundary matrix with Z_2 coefficients.
+.SH OPTIONS
+.TP
+\fB\-\-ascii\fR
+use ascii file format
+.TP
+\fB\-\-binary\fR
+use binary file format (default)
+.TP
+\fB\-\-help\fR
+prints this screen
+.TP
+\fB\-\-verbose\fR
+verbose output
+.TP
+\fB\-\-dualize\fR
+use dualization approach
+.TP
+\fB\-\-vector_vector\fR
+.TQ
+\fB\-\-vector_heap\fR
+.TQ
+\fB\-\-vector_set\fR
+.TQ
+\fB\-\-vector_list\fR
+.TQ
+\fB\-\-full_pivot_column\fR
+.TQ
+\fB\-\-sparse_pivot_column\fR
+.TQ
+\fB\-\-heap_pivot_column\fR
+.TQ
+\fB\-\-bit_tree_pivot_column\fR
+selects a representation data structure for boundary matrices (default is '\-\-bit_tree_pivot_column')
+.TP
+\fB\-\-standard\fR
+.TQ
+\fB\-\-twist\fR
+.TQ
+\fB\-\-chunk\fR
+.TQ
+\fB\-\-chunk_sequential\fR
+.TQ
+\fB\-\-spectral_sequence\fR
+.TQ
+\fB\-\-row\fR
+selects a reduction algorithm (default is '\-\-twist')
+.SH AUTHORS
+\fBphat\fR is written by IST Austria, contributed by:
+Ulrich Bauer, Michael Kerber, and Jan Reininghaus.
+.PP
+This manual page was written by Ippei Obayashi <ohai@kmc.gr.jp>.
+.SH SEE ALSO
+https://code.google.com/p/phat/
