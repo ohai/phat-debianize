@@ -9,6 +9,8 @@ License: LGPL-3+
 Files: debian/*
 Copyright: 2015 Ippei Obayashi <ohai@kmc.gr.jp>
 License: LGPL-3+
+
+License: LGPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
  the Free Software Foundation; either version 3 of the License, or
