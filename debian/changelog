@@ -1,0 +1,5 @@
+phat (1.4.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Ippei Obayashi <ohai@kmc.gr.jp>  Wed, 23 Dec 2015 19:58:42 +0900
