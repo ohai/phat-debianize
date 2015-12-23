@@ -18,6 +18,7 @@ Description: Software to compute persistence pairs
 
 Package: libphat-dev
 Architecture: any
+Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Software to compute persistence pairs (development files)
  This software library contains methods for computing the persistence
