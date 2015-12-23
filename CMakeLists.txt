@@ -57,3 +57,6 @@ source_group(Header\ Files FILES ${general_includes})
 source_group(Header\ Files\\helpers FILES ${helpers_includes})
 source_group(Header\ Files\\representations FILES ${representations_includes})
 source_group(Header\ Files\\algorithms FILES ${algorithms_includes})
+
+install(PROGRAMS ${CMAKE_BINARY_DIR}/phat DESTINATION "bin")
+install(DIRECTORY include/phat DESTINATION "include")
